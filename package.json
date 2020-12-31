@@ -23,7 +23,6 @@
   "homepage": "https://github.com/piot/npm-turmoil-all#readme",
   "dependencies": {
     "swamp-compiler": "0.0.1",
-    "turmoil-engine": "0.0.1",
-    "turmoil-packages": "0.0.1"
+    "turmoil-engine": "0.0.3"
   }
 }
