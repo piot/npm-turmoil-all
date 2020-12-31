@@ -1,0 +1,29 @@
+{
+  "name": "turmoil-all",
+  "version": "0.0.1",
+  "description": "complete turmoil engine and swamp compiler",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piot/npm-turmoil-all.git"
+  },
+  "bin": {
+    "swamp": "node_modules/swamp-compiler/bin/swamp",
+    "turmoil": "node_modules/turmoil-engine/bin/turmoil",
+    "turmoilc": "node_modules/turmoil-engine/bin/turmoilc"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piot/npm-turmoil-all/issues"
+  },
+  "homepage": "https://github.com/piot/npm-turmoil-all#readme",
+  "dependencies": {
+    "swamp-compiler": "0.0.1",
+    "turmoil-engine": "0.0.1",
+    "turmoil-packages": "0.0.1"
+  }
+}
